@@ -1,0 +1,221 @@
+
+/* Partie Maco */
+nav {
+	position: relative;
+}
+	
+body, html {
+		height: 100%;
+}
+
+/* Images de fond (bg = Background) */
+.bgHome { 
+		/* The image used */
+		background-image: url("images/home.jpg");
+	
+		/* Full height */
+		height: 100%; 
+	
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}        
+
+.bgEat {
+	background-image: url("images/eat.jpg");
+
+	height: 100%; 
+	
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.bgSport {
+	background-image: url("images/sport.jpg");
+
+	height: 100%; 
+	
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.bgDrink {
+	background-image: url("images/drink.jpg");
+
+	height: 100%; 
+	
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.bgEvent {
+	background-image: url("images/events.jpg");
+
+	height: 100%; 
+	
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+.countdown {
+	background-color:#fbebd5;
+	height: 100%;
+}
+
+.countdown h1 {
+	color: #263e7d;
+	text-align: center; 
+	padding-top:10vh;
+}
+.countdown .clock {
+	width: 70%;
+	height: auto;
+	padding-top: 10vh;
+}
+.btn {
+	background: transparent;
+}
+
+/* Options pour les Modals */
+
+/* Importation des polices */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400);
+/* Nom des polices */
+.font-roboto {
+  font-family: 'roboto condensed';
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Definition des polices */
+body {
+  .font-roboto();
+}
+/* /Definition des polices */
+
+/* Alignement Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2px solid #3c7dcf;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.modal-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  padding: 10px;
+  background: #fbebd5;
+  border: 0;
+  text-align: center;
+}
+.modal-header a {
+	border: slateblue 3px solid;
+}
+.modal-title {
+  font-weight: 300;
+  font-size: 2em;
+  color: #fff;
+  line-height: 30px;
+}
+
+.modal-body {
+  position: absolute;
+  top: 50px;
+  bottom: 60px;
+  width: 100%;
+  font-weight: 300;
+  overflow: auto;
+  background: #263e7d;
+}
+
+.modal-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  padding: 0;
+  background: #fbebd5;
+}
+
+/* Couleurs et attributs des polices */
+h1,
+h2,
+h3 {
+  color: #fbebd5;
+  line-height: 1.5;
+
+  // first
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5;
+  color: #fbebd5;
+
+  // last
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  background: #f1f3f5;
+  border-left: 1px solid darken(#f1f3f5, 10%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: darken(#f1f3f5, 20%);
+}
+
+/* Attributs bouton fermeture */
+.btn {
+	border: none;
+	color:  #263e7d;
+}
+
+.nav-pills a {
+	background-color:#fbebd5;
+	color: #263e7d;
+}
+/* Fin de Partie Maco */

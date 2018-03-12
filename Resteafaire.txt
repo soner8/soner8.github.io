@@ -1,0 +1,3 @@
+remplacer text pills par icone ! 
+Integrer police ! 
+Encadrer compte à rebourd !
