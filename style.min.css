@@ -1,0 +1,106 @@
+.precious,
+.ring,
+.find {
+    align-items: center;
+    margin: 20px 0
+}
+
+.find .col-12 {
+    margin: 20px 0
+}
+
+.precious span,
+.ring span,
+.find span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #ff5f01;
+    border-width: 3.07692px;
+    border-style: solid;
+    box-shadow: 1.14286px 1.33333px 1.33333px #cd4c00
+}
+
+.ring span {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    border-radius: 62.5px;
+    border-color: #FCCA02;
+    border-width: 9.61538px;
+    border-style: solid;
+    box-shadow: 3.57143px 4.16667px 4.16667px #c9a102
+}
+
+.find span:nth-child(1) {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    border-color: #3C3C3B;
+    border-width: 1.15385px;
+    border-style: solid;
+    box-shadow: .42857px .5px .5px #222;
+    margin: -2px
+}
+
+.find span:nth-child(2) {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: #3C3C3B;
+    border-width: 2.30769px;
+    border-style: solid;
+    box-shadow: .85714px 1px 1px #222;
+    margin: -4px
+}
+
+.find span:nth-child(3) {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    border-color: #3C3C3B;
+    border-width: 3.46154px;
+    border-style: solid;
+    box-shadow: 1.28571px 1.5px 1.5px #222;
+    margin: -6px
+}
+
+.find span:nth-child(4) {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border-color: #3C3C3B;
+    border-width: 4.61538px;
+    border-style: solid;
+    box-shadow: 1.71429px 2px 2px #222;
+    margin: -8px
+}
+
+.find span:nth-child(5) {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 37.5px;
+    border-color: #3C3C3B;
+    border-width: 5.76923px;
+    border-style: solid;
+    box-shadow: 2.14286px 2.5px 2.5px #222;
+    margin: -10px
+}
+
+.find span:nth-child(6) {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    border-color: #3C3C3B;
+    border-width: 6.92308px;
+    border-style: solid;
+    box-shadow: 2.57143px 3px 3px #222;
+    margin: -12px
+}
